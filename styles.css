@@ -9,17 +9,15 @@ body * {
   margin: 0 auto;
 }
 
-body {
+h3 {
+  color: #888;
 }
 
 li {
   margin: 0 14px;
 }
 
-h3 {
-  color: #888;
-}
-
+  /* Header styles */
 .header-container {
   background-color: #4EA0FF;
 }
@@ -29,10 +27,10 @@ h3 {
 }
 
 .logo {
-  /* height: 250px; */
   margin-top: 95px;
   width: 260px;
 }
+
 .header {
   background-image: url(/img/pattern.png);
   height: 170px;
@@ -40,18 +38,24 @@ h3 {
 
 .description {
   color: #888;
+
+  /* Main paragraph style */
+
 }
 .accent {
   color: rgb(42, 201, 201);
 }
 
 .main-paragraph {
- margin: 20px 0;
+  margin: 20px 0;
 }
 
 .highlight {
   background-color: yellow;
 }
+
+
+  /* Table styling */
 
 table {
   margin-top: 20px;
@@ -60,7 +64,12 @@ table {
 
 }
 
-.last {
+.table-header {
+  background-color: #21A9E5;
+  border-style: none;
+}
+
+th:last-child {
   width: 50%;
 }
 
@@ -68,15 +77,13 @@ th:first-child, th:nth-child(2) {
   text-align: left;
 }
 
-.table-header {
-  background-color: #21A9E5;
-  border-style: none;
-}
 
 .primary-color {
   background-color: #B1E5F2;
 }
 
+
+  /* Footer Styling */
 
 footer {
   margin-top: 30px;
