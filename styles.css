@@ -4,6 +4,23 @@
   padding: 0;
 }
 
+body {
+  margin: 0 10px;
+}
+
+h1 {
+  /* margin-top: 18px;
+  margin-left: 4px; */
+}
+
+span {
+  /* padding: 10px 4px; */
+}
+
+li {
+  margin: 0 14px;
+}
+
 .header-container {
   background-color: #4EA0FF;
 }
@@ -23,3 +40,12 @@
 .accent {
   color: rgb(42, 201, 201);
 }
+
+.main-paragraph {
+ margin: 20px 0;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
