@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: #4EA0FF;
+}
+
+.logo {
+  height: 250px;
+  width: 260px;
+}
+.header {
+  background-image: url(/img/pattern.png);
+  height: 170px;
+}
+
+.description {
+  color: #888;
+}
+.accent {
+  color: rgb(42, 201, 201);
+}
