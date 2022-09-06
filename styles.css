@@ -32,7 +32,7 @@ li {
 }
 
 .header {
-  background-image: url(/img/pattern.png);
+  background-image: url(./img/pattern.png);
   height: 170px;
 }
 
@@ -92,7 +92,7 @@ footer {
 .footer-img {
   height: 208px;
   width: 20%;
-  background-image: url(/img/monitor.jpg);
+  background-image: url(./img/monitor.jpg);
   margin: 10px 0;
   color: white;
   font-size: 1.5rem;
@@ -100,5 +100,5 @@ footer {
   padding-left: 10px;
 }
 .footer-img-1 {
-  background-image: url(/img/graph.jpg);
+  background-image: url(./img/graph.jpg);
 }
