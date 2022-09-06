@@ -4,7 +4,8 @@
   padding: 0;
 }
 
-body * {
+main, footer, .container {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -18,8 +19,13 @@ li {
 }
 
   /* Header styles */
-.header-container {
+
+.header {
   background-color: #4EA0FF;
+  background-image: url(./img/pattern.png);
+  height: 170px;
+  background-size: 50%;
+  width: 100%;
 }
 
 .img-gallery {
@@ -29,12 +35,6 @@ li {
 .logo {
   margin-top: 95px;
   width: 260px;
-}
-
-.header {
-  background-image: url(./img/pattern.png);
-  height: 170px;
-  background-size: 50%;
 }
 
 .description {
