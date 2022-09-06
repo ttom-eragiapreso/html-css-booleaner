@@ -34,6 +34,7 @@ li {
 .header {
   background-image: url(./img/pattern.png);
   height: 170px;
+  background-size: 50%;
 }
 
 .description {
@@ -99,6 +100,7 @@ footer {
   padding-top: 10px;
   padding-left: 10px;
 }
+
 .footer-img-1 {
   background-image: url(./img/graph.jpg);
 }
